@@ -1,8 +1,7 @@
 from sklearn.feature_extraction.text import CountVectorizer
 
-document = ["How Are You Mr XD Tahir",
-			"It's Pleasure To Meet You",
-			"So You Work In A Software Company"]
+document = ["I am a boy My name is umer my hobby is travelling i live in Multan i study in Bscs 
+My early study is Sultan pur then i study in college in Muslim college and pass out with great result then i travel to lahore for higher study After one year i came back home and then start study from Multan"]
 
 # Create a Vectorizer Object
 vectorizer = CountVectorizer()
